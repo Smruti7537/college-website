@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universty Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="blog.html.html">BLOG</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificate & Online Programs For 2023</h1>
+    </section>
+
+<!-- -------------blog Page contentt-------------- -->
+
+
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate & Online Programs For 2023</h2>
+            <p>
+           
+Founded in 1997, Trident Academy of Creative Technology (TACT) has firmly established itself as a beacon of excellence in higher education. Affiliated with Biju Patnaik University of Technology, Odisha, and approved by AICTE, TACT stands as a testament to unwavering commitment to academic quality and innovation.
+
+Among the educational institutions in Bhubaneswar, TACT truly shines as the crown jewel. The college's dedication to nurturing creative minds, fostering technological prowess, and instilling a sense of academic rigor sets it apart. With a curriculum that's designed to align with industry trends and demands, students at TACT are equipped with not just theoretical knowledge, but also practical skills that are highly relevant in today's rapidly evolving world.
+
+The campus itself is a testament to the college's pursuit of excellence. State-of-the-art facilities, well-equipped laboratories, and a vibrant learning environment create an atmosphere that is conducive to growth and exploration. The faculty, a blend of experienced educators and industry professionals, are committed to shaping students into well-rounded individuals who can thrive in the competitive global landscape.
+
+Beyond academics, TACT also places a strong emphasis on holistic development. The college's focus on extracurricular activities, cultural events, and community engagement ensures that students graduate not only with a degree but also with a sense of social responsibility and leadership skills.
+
+In conclusion, Trident Academy of Creative Technology (TACT) is undoubtedly the epitome of educational brilliance in Bhubaneswar. Its affiliation with a prestigious university, approval from AICTE, and its unwavering commitment to excellence make it a paragon of higher education. For those seeking not just a college, but a transformative educational experience that prepares them for the challenges and opportunities of the future, TACT is the undisputed choice.
+            </p>
+
+
+            <div class="comment-box">
+
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea  rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>M-Tech</span>
+                <span>30</span>
+            </div>
+            <div>
+                <span>MBA</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>MCA</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>BBA</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>BCA</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Bio-Tech.</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>B-Tech</span>
+                <span>22</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ---------------------Footer ---------------- ---- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>The college has excellent infrastructure to conduct placement drives of prestigious National and Multinational Corporate recruiters.<br> Below graph shows the number of recruiters in last 4 years visiting the campus. Our top recruiters are: Dell, HCL, HP, Infosys, TCS, Wipro, ZS Associates, Maruti, Cafe Coffee Day etc.
+    </p>
+    <div class="icons">
+        <a href="https://www.facebook.com/smrutiranjan.malla.52?mibextid=b06tZ0"><i class="fa-brands fa-facebook"></i>
+        <a href="https://twitter.com/Smrutimalla753?t=hBLVi5dp3lByis5uUXRFCg&s=09"><i class="fa-brands fa-square-twitter"></i>
+        <a href="c:\Users\smrut\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\671D8D05D795091118B1344F715307C4\WhatsApp Image 2023-08-15 at 20.35.43.jpg"><i class="fa-brands fa-square-instagram"></i>
+        <a href="https://www.linkedin.com/in/smruti-ranjan-malla-219198233"><i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made by Smruti Ranjan Malla.</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------- javascript for Toggle menu -------------->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
